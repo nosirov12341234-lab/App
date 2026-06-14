@@ -1,7 +1,7 @@
 <?php
-define('API_KEY',"API_TOKEN");
+define('API_KEY',"8950209306:AAEZwZZ5qY8YmFl1qJhIG2A_0KjvQisbShA");
 
-$builder24 = "ADMIN_ID";
+$builder24 = "8752219291";
 $admins=file_get_contents("statistika/admins.txt");
 $admin = explode("\n", $admins);
 array_push($admin,$builder24);
